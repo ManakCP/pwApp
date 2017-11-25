@@ -1,0 +1,18 @@
+{
+  "name": "pwapp",
+  "version": "1.0.0",
+  "description": "my first pwa app, render news content when offline",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "Manak Prajapati",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "workbox-sw": "^2.1.2"
+  }
+}
